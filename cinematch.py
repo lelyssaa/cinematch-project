@@ -10,7 +10,7 @@ import os
 
 # Page configuration
 st.set_page_config(
-    page_title="🎬 Movie Recommender",
+    page_title="Cinematch",
     page_icon="🎬",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -412,8 +412,8 @@ def main():
     with col2:
         st.markdown("""
         <div class="main-header">
-            <h1>🎬 Movie Recommendation Engine</h1>
-            <p>Discover your next favorite movie with style!</p>
+            <h1>🎬Cinematch</h1>
+            <p>Discover your next favourite movie with style!</p>
         </div>
         """, unsafe_allow_html=True)
     
