@@ -1,0 +1,74 @@
+.stApp {
+    background-color: #0e1117;
+    color: #fafafa;
+}
+
+.main-header {
+    text-align: center;
+    padding: 2rem 0;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    border-radius: 15px;
+    margin-bottom: 2rem;
+    color: white;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+}
+
+.movie-card {
+    border: 1px solid #333;
+    border-radius: 15px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    background: #1e1e1e;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+    transition: transform 0.2s;
+}
+
+.movie-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.7);
+}
+
+.stButton > button {
+    width: 100%;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    border: none;
+    padding: 0.75rem 1rem;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: all 0.3s;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(102, 126, 234, 0.4);
+}
+
+.trailer-container {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+}
+
+.rating-stars {
+    font-size: 1.5rem;
+    color: #ffd700;
+}
+
+.sidebar .stSelectbox, .sidebar .stMultiselect {
+    background-color: #1e1e1e;
+}
+
+@media (max-width: 768px) {
+    .main-header h1 { 
+        font-size: 1.5rem; 
+    }
+    .movie-card { 
+        padding: 1rem; 
+        margin: 0.5rem 0; 
+    }
+    .stButton > button { 
+        padding: 0.5rem; 
+        font-size: 0.9rem; 
+    }
+}

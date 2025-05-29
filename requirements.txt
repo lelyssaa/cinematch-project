@@ -1,0 +1,8 @@
+streamlit
+pandas
+requests
+fuzzywuzzy
+python-levenshtein
+google-generativeai
+plotly
+python-dotenv
