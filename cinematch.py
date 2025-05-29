@@ -7,10 +7,6 @@ from datetime import datetime
 import json
 import time
 import os
-""" from dotenv import load_dotenv
-
-# Load environment variables
-load_dotenv('keys.env') """
 
 # Page configuration
 st.set_page_config(
@@ -427,8 +423,8 @@ def main():
     # ============================================
     # 🔑 DEVELOPER: API KEYS FROM ENVIRONMENT
     # ============================================
-    TMDB_API_KEY = st.secrets("TMDB_API_KEY")
-    GEMINI_API_KEY = st.secrets("GEMINI_API_KEY")
+    TMDB_API_KEY = st.secrets["TMDB_API_KEY"]
+    GEMINI_API_KEY = st.secrets["GEMINI_API_KEY"]
     
     # Check if API keys are loaded
     if not TMDB_API_KEY:
